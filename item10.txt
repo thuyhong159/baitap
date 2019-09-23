@@ -1,0 +1,67 @@
+milk, hanoibeer, umbrella, coca, diaper, water, pepsi, bread, cheese, beer
+detergent, water, pepsi, umbrella, milk, cheese, bread
+bread, cheese, milk, saigonbeer, detergent
+saigonbeer, bread, beer, water, cheese, diaper, coca
+bread
+coca, saigonbeer, pepsi, bread
+cheese
+umbrella, saigonbeer, cheese, fanta, beer, pepsi, detergent
+diaper
+fanta, umbrella, saigonbeer
+cheese, pepsi, hanoibeer, saigonbeer, umbrella, detergent
+diaper, pepsi, fanta, detergent, bread, beer, hanoibeer
+cheese, hanoibeer, saigonbeer, fanta
+saigonbeer, milk
+detergent, water, saigonbeer, bread, fanta, milk, hanoibeer, diaper, coca
+cheese, saigonbeer, umbrella, detergent, fanta, hanoibeer, coca, diaper, water
+bread
+pepsi, beer, detergent, fanta, umbrella, diaper, water, saigonbeer, cheese, coca
+coca, hanoibeer, water, bread, saigonbeer, fanta, umbrella, diaper
+umbrella, coca, cheese, detergent, bread, beer
+cheese, water
+pepsi, diaper, milk, beer, water, umbrella, coca, detergent
+milk, fanta, umbrella, detergent, saigonbeer, pepsi, diaper, coca, water
+detergent, water, milk, coca, fanta, saigonbeer, cheese
+diaper, detergent, bread, saigonbeer
+milk, detergent, umbrella, diaper, saigonbeer, cheese
+pepsi, saigonbeer, detergent, umbrella, cheese, water, diaper, beer, hanoibeer
+bread
+detergent, bread, milk, diaper, umbrella, saigonbeer
+diaper, detergent, coca, bread, pepsi, cheese, umbrella, hanoibeer
+water, pepsi, hanoibeer, cheese, beer
+beer, hanoibeer, fanta, saigonbeer, cheese, pepsi, umbrella, detergent
+saigonbeer, milk, coca, cheese, umbrella, hanoibeer
+coca, pepsi
+beer, coca, saigonbeer, diaper, bread
+cheese, saigonbeer, umbrella
+hanoibeer, umbrella, coca, beer
+beer, coca, cheese, diaper, hanoibeer, water
+bread, cheese
+milk, cheese, umbrella, bread, detergent, pepsi, fanta
+pepsi, diaper, umbrella, detergent, milk, fanta, hanoibeer, bread
+umbrella
+bread, beer, saigonbeer
+diaper, bread, umbrella, hanoibeer, coca, pepsi
+cheese, diaper, detergent, coca, water, hanoibeer, bread
+coca, pepsi, water, umbrella
+hanoibeer, bread, milk, beer, saigonbeer, water, cheese, detergent, fanta
+bread, coca, milk, water, umbrella, pepsi, fanta
+hanoibeer, saigonbeer
+hanoibeer, milk, pepsi, saigonbeer, fanta
+saigonbeer, fanta, coca, cheese, hanoibeer, diaper
+hanoibeer
+umbrella, diaper, milk, pepsi, detergent, bread, water, cheese, beer
+bread
+water, beer, diaper, pepsi
+water, hanoibeer, saigonbeer, fanta, pepsi, diaper
+bread, milk, saigonbeer, hanoibeer, cheese, pepsi
+saigonbeer, coca, umbrella, milk
+coca
+hanoibeer
+saigonbeer, bread
+umbrella, fanta, cheese, beer, saigonbeer
+diaper, coca, milk, water, hanoibeer
+hanoibeer, cheese, milk, fanta
+hanoibeer, coca, bread, cheese
+bread, beer, fanta, umbrella, hanoibeer, milk
+cheese, water, beer, coca, milk, saigonbeer, detergent

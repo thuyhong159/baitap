@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bài 2 làm menu</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.container {
+			margin-left: 200px;
+			width: 970px;
+			background: #eee;
+		}
+		.menu {
+			height: 30px;
+		}
+		.menu ul {
+			list-style-type: none;
+			/*float: left;*/
+		}
+		.menu ul li {
+			float: left;
+			position: relative;
+		}
+		.menu ul a {
+			text-decoration: none;
+			color: #fff;
+			background: green;
+			display:block;
+			border: 1px solid #ccc;
+			text-align: center;
+			/*border-left: 1px solid #ccc;*/
+			padding: 10px 30px;
+		}
+		.menu li a {
+			display: inline-block;
+		}
+		.menu ul a:hover {
+			background: red;
+		}
+		.menu1 {
+			display: none;
+			position: absolute;
+			
+			background: green;
+
+		}
+		.menu li:hover .menu1{
+			display: block;
+		}
+		
+		.menu1 li:hover ul{
+			display: block;
+		}
+		.menu1 li {
+			width: 200px;
+			float: none;
+			padding: 10px 5px;
+			border-bottom: 1px solid #eee;
+		}
+		.menu1 li:hover {
+			color: #fff;
+		}
+	 	.menu li .menu1 {
+	 		top: 40px;
+	 	}
+
+	 	.content {
+	 		clear: both;
+	 		width: 700px;
+	 		height: 100%;
+	 		margin-top: 100px;
+	 		position: relative;
+	 		margin-left: 130px;
+	 	}
+	 	.content td {
+	 		padding: 4px 4px;
+	 	}
+	 	.taonut {
+	 		
+	 		margin-top: 50px;
+	 		margin-left: 100px;
+	 		margin-bottom: 20px;
+	 	}
+	 	.taonut input {
+	 		padding: 5px;
+	 		background-color: green;
+	 		color: #fff;
+	 		margin-left: 39px;
+	 	}
+	 	
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="menu">
+			<ul>
+				<li><a href="#">Quản lý phòng</a>
+						<ul class="menu1">
+							<li>Cập nhật thông tin loại phòng</li>
+							<li>Cập nhật phòng</li>
+							<li>Cập nhật loại phòng</li>
+							<li>Cập nhật dịch vụ</li>
+						</ul>
+				</li>
+				<li><a href="#">Quản lý nhận phòng</a></li>
+				<li><a href="#">Quản lý nhân viên</a>
+						<ul class="menu1">
+							<li>Cập nhật nhân viên</li>
+							<li>Cập nhật lương nhân viên</li>
+							<li>Danh sách nhân viên</li>
+						</ul>
+				</li>
+				<li><a href="#">Thống kê</a>
+						<ul class="menu1">
+							<li>Thống kê doanh thu</li>
+							<li>Thống kê danh sách hóa đơn</li>
+							<li>Thống kê danh sách khách nợ</li>
+							<li>Báo cáo ngày</li>
+						</ul>
+				</li>
+				<li><a href="#">Tiện ích</a></li>
+				<li><a href="#">Trợ giúp</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<center><h2>QUẢN LÝ NHẬN PHÒNG</h2></center>
+			<form action="" method="POST">
+				<table>
+					<tr>
+						<td>Họ tên</td>
+						<td><input type="text" name=""></td>
+					</tr>
+					<tr>
+						<td>CMND</td>
+						<td><input type="text" name=""></td>
+					</tr>
+					<tr>
+						<td>Địa chỉ</td>
+						<td><input type="text" name=""></td>
+					</tr>
+					<tr>
+						<td>Ngày sinh</td>
+						<td><input type="date" name=""></td>
+					</tr>
+					<tr>
+						<td>Giới tính</td>
+						<td><input type="radio" checked="" name="">Nam
+							<input type="radio" name="">Nữ
+						</td>
+					</tr>
+					<tr>
+						<td>Quốc tịch</td>
+						<td><input type="text" name=""></td>
+					</tr>
+					<tr>
+						<td>Cơ quan/Công ty</td>
+						<td><input type="text" name=""></td>
+					</tr>
+					<tr>
+						<td>Ngày vào</td>
+						<td><input type="date" name="">
+						Thời gian:  <input type="time" name=""></td>
+					</tr>
+					<tr>
+						<td>Ngày ra</td>
+						<td><input type="date" name="">
+						Thời gian:   <input type="time" name=""></td>
+					</tr>
+					<tr>
+						<td>Loại phòng</td>
+						<td><input type="text" name=""></td>
+					</tr>
+					<tr>
+						<td>Phòng</td>
+						<td><input type="text" name=""></td>
+					</tr>
+					<tr>
+						<td>Giá phòng</td>
+						<td><input type="text" name=""></td>
+					</tr>
+					<tr>
+						<td>Số người</td>
+						<td><input type="text" name=""></td>
+					</tr>
+					<tr>
+						<td>Trả trước</td>
+						<td><input type="text" name=""></td>
+					</tr>
+					<tr>
+						<td>Khuyến mãi</td>
+						<td><input type="text" name="" required=""></td>
+					</tr>
+					<tr>
+						<td>Ghi chú</td>
+						<td><textarea cols="25" rows="3"></textarea></td>
+					</tr>
+						
+				</table>
+				<div class="taonut">
+					<input type="submit" name="" value="Nhận đặt phòng">
+					<input type="submit" name="huy" value="Hủy đặt">
+					<input type="submit" name="thoat" value="Thoát">
+					
+				</div>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>

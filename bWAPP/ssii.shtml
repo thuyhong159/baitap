@@ -1,0 +1,1 @@
+<p>Hello <!--#echo Var ="Document_name"--> <!--#echo Var ="Document_local"-->,</p><p>Your IP address is:</p><h1><!--#echo var="REMOTE_ADDR" --></h1>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thiết kế giao diện</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.container {
+			margin-left: 200px;
+			width: 970px;
+			background: #eee;
+		}
+		.menu {
+			height: 30px;
+		}
+		.menu ul {
+			list-style-type: none;
+			/*float: left;*/
+		}
+		.menu ul li {
+			float: left;
+			position: relative;
+		}
+		.menu ul a {
+			text-decoration: none;
+			color: #fff;
+			background: green;
+			display:block;
+			border: 1px solid #ccc;
+			text-align: center;
+			/*border-left: 1px solid #ccc;*/
+			padding: 10px 30px;
+		}
+		.menu li a {
+			display: inline-block;
+		}
+		.menu ul a:hover {
+			background: red;
+		}
+		.menu1 {
+			display: none;
+			position: absolute;
+			
+			background: green;
+
+		}
+		.menu li:hover .menu1{
+			display: block;
+		}
+		
+		.menu1 li:hover ul{
+			display: block;
+		}
+		.menu1 li {
+			width: 200px;
+			float: none;
+			padding: 10px 5px;
+			border-bottom: 1px solid #eee;
+		}
+		.menu1 li:hover {
+			color: #fff;
+		}
+	 	.menu li .menu1 {
+	 		top: 40px;
+	 	}
+
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="menu">
+				<ul>
+					<li><a href="#">Trang chủ</a></li>
+					<li><a href="#">Quản lý</a>
+						<ul class="menu1">
+							<li>Quản lý phòng</li>
+							<li>Quản lý phòng</li>
+						</ul>
+					</li>
+					<li><a href="#">Thông Tin</a>
+						<ul class="menu1">
+							<li>ads</li>
+							<li>fsdfs</li>
+						</ul>
+
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>
